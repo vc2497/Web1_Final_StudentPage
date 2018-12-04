@@ -1,0 +1,87 @@
+@font-face {
+    font-family: 'Avenir';
+    src: url('fonts/avenir_regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'GothamB';
+    src: url('fonts/gotham_bold.woff') format('woff');
+}
+@font-face {
+    font-family: 'GothamM';
+    src: url('fonts/gotham_medium.woff') format('woff');
+}
+
+ul {
+    font-family: 'Avenir', sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    color:white;
+}
+
+/* FACULTY HEADER */
+.StudentHeader {
+    font-family: 'Avenir', sans-serif;
+    font-weight: 100;
+    font-size: 24px;
+    color:#F7CE3E;
+
+}
+.StudentHeader h1 {
+    color: #F7CE3E;
+    font-size: 68px;
+}
+@media only screen and (max-width: 650px) {
+    .StudentHeader {
+        font-size: 4vw;
+    }
+    .StudentHeader h1{
+        font-size: 10vw;
+    }
+}
+
+/* STUDENT HIGHLIGHTED SECTION */
+.LoremText h1{
+    font-family: 'GothamM', sans-serif;
+    font-weight: 500;
+    font-size: 64px;
+    color:black;
+}
+
+.LoremText h2{
+    font-family: 'GothamM', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color:black;
+}
+.LoremText p{
+    font-family: 'Avenir', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color:black;
+}
+@media only screen and (max-width: 1287px) {
+    .LoremText h1 {
+        font-size: 10vw;
+    }
+    .LoremText h2 {
+        font-size: 4vw;
+    }
+    .LoremText p {
+        font-size: 2vw;
+    }
+}
+/* FOOTER */
+.footer-items {
+    font-family: 'Avenir', sans-serif;
+    font-weight: 900;
+    font-size: 24px;
+    color:white;
+}
+
+@media only screen and (max-width: 720px) {
+
+.footer-items {
+    font-size: 5vw;
+}
+}

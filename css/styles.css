@@ -1,0 +1,56 @@
+@font-face {
+    font-family: 'Avenir';
+    src: url('fonts/avenir_regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'GothamB';
+    src: url('fonts/gotham_bold.woff') format('woff');
+}
+@font-face {
+    font-family: 'GothamM';
+    src: url('fonts/gotham_medium.woff') format('woff');
+}
+
+ul {
+    font-family: 'Avenir', sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    color:white;
+}
+
+/* FACULTY HEADER */
+.FacultyHeader {
+    font-family: 'Avenir', sans-serif;
+    font-weight: 100;
+    font-size: 24px;
+    color:#D8D8D8;
+
+}
+h1 {
+    color: white;
+    font-size: 68px;
+}
+@media only screen and (max-width: 650px) {
+    .FacultyHeader {
+        font-size: 4vw;
+    }
+    .FacultyHeader h1{
+        font-size: 10vw;
+    }
+}
+
+/* FOOTER */
+.footer-items {
+    font-family: 'Avenir', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    color:white;
+}
+
+@media only screen and (max-width: 720px) {
+
+    .footer-items {
+        font-size: 5vw;
+    }
+}

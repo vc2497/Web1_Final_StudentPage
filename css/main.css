@@ -1,0 +1,239 @@
+/* MAIN NAVIGATION ITEMS */
+* {
+    width: 100%;
+}
+.wrapper {
+    width: auto;
+    margin: 0 auto;
+    background:url('assets/FacultyImages/NavImage.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80%;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+section img {
+    width: 100px;
+    height: 90px;
+}
+nav ul {
+    display: flex;
+    list-style-type: none;
+ 
+}
+nav li {
+    background:#1A2930;
+    margin: 5px 20px 5px 20px;
+    padding: 5px 45px 0 45px;
+}
+nav a {
+    text-decoration: none;
+    color:white;
+    margin: 5px;
+
+}
+ul img {
+    width: 35px;
+}
+ul li:nth-child(6) {
+    background: none;
+}
+
+/* FACULTY HEADER SECTION */
+.FacultyHeader {
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+.FacultyText {
+    text-align: center;
+}
+
+
+/* MAIN CONTENT - BADASS STAFF IMAGES */
+.Grid {
+    width: auto;
+    margin: 20px;
+}
+
+.Images {
+    display: grid;
+    grid-template-rows: repeat(12, 1fr);
+    grid-template-columns: repeat(12, 1fr);
+    padding: 40px;
+}
+
+#Bad {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 12;
+    width: 100%;
+}
+#Bad img {
+    height: 89%;
+}
+
+#Sarah {
+    grid-column-start: 4;
+    grid-column-end: 8;
+    grid-row-start: 1;
+    grid-row-end: 6;
+    width: 100%;
+    padding-left: 15px;
+    padding-bottom: 10px;
+}
+
+#Peter {
+    grid-column-start: 4;
+    grid-column-end: 8;
+    grid-row-start: 6;
+    grid-row-end: 12;
+    width: 100%;
+    padding-left: 15px;
+}
+
+#Dike {
+    grid-column-start: 8;
+    grid-column-end: 12;
+    grid-row-start: 1;
+    grid-row-end:6;
+    width: 100%;
+    padding-left: 25px;
+
+}
+#Fred {
+    grid-column-start: 8;
+    grid-column-end: 12;
+    grid-row-start: 6;
+    grid-row-end: 12;
+    width: 100%;
+    padding-left: 25px;
+
+}
+
+@media only screen and (max-width: 735px) {
+    .Images {
+        display: block;
+        width: 100%;
+        align-content: left;
+        padding: none;
+        margin: 0;
+    }
+
+    
+}
+
+/* MAIN CONTENT - DESIGN THINKING IMAGES */
+.Grid2 {
+    width: auto;
+}
+.More{
+    display: grid;
+    grid-template-rows: repeat(12, 1fr);
+    grid-template-columns: repeat(12, 1fr);
+    margin-left: 45px;
+  
+
+}
+
+#Mark {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 6;
+    width: 100%;
+    padding-bottom: 10px;
+}
+#Andrea {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 6;
+    grid-row-end: 12;
+    width: 100%;
+}
+
+#Paula {
+    grid-column-start: 5;
+    grid-column-end: 9;
+    grid-row-start: 1;
+    grid-row-end: 6;
+    width: 100%;
+    padding-left: 15px;
+}
+#Chip {
+    grid-column-start: 5;
+    grid-column-end: 9;
+    grid-row-start: 6;
+    grid-row-end: 12;
+    width: 100%;
+    padding-left: 15px;
+}
+
+#Thinking {
+    grid-column-start: 9;
+    grid-column-end: 12;
+    grid-row-start: 1;
+    grid-row-end: 12;
+    width: 100%;
+    margin-left: 30px;
+}
+#Thinking img {
+    height: 89%;
+}
+
+
+@media only screen and (max-width: 735px) {
+    .More {
+        display: block;
+        width: 100%;
+        align-content: left;
+        padding: none;
+        margin: 0;
+    }
+
+    
+}
+
+/* MAIN FOOTER */
+
+footer {
+    width: 100%;
+}
+.footer-container {
+    width: auto;
+    background: #1d292f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+}
+.footer-items {
+    display: grid;
+    grid-template-rows: 70px 70px 70px;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 150px;
+    padding-top: 20px;
+}
+
+@media only screen and (max-width: 720px) {
+
+    .footer-container {
+        width: 100%;
+        height: 500px;
+        
+    }
+
+
+    .footer-items {
+        display: inline-block;
+        position: absolute;
+ 
+    }
+}
+
+
